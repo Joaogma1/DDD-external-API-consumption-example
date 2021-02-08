@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <ApplicationIcon />
+    <StartupObject />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Github\Github.csproj" />
+    <ProjectReference Include="..\IntegrationTest.Models\IntegrationTest.Models.csproj" />
+  </ItemGroup>
+
+</Project>
